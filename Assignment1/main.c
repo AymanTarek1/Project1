@@ -53,38 +53,7 @@ int main()
 
 
 
-		/*PORTA|=(1<<0);
-		_delay_ms(100);
-		PORTA|=(1<<1);
-		_delay_ms(100);
-		PORTA|=(1<<2);
-		_delay_ms(100);
-		PORTA|=(1<<3);
-		_delay_ms(100);
-		PORTA|=(1<<4);
-		_delay_ms(100);
-		PORTA|=(1<<5);
-		_delay_ms(100);
-		PORTA|=(1<<6);
-		_delay_ms(100);
-		PORTA|=(1<<7);
-		_delay_ms(1000);
-		PORTA&=~(1<<7);
-		_delay_ms(100);
-		PORTA&=~(1<<6);
-		_delay_ms(100);
-		PORTA&=~(1<<5);
-		_delay_ms(100);
-		PORTA&=~(1<<4);
-		_delay_ms(100);
-		PORTA&=~(1<<3);
-		_delay_ms(100);
-		PORTA&=~(1<<2);
-		_delay_ms(100);
-		PORTA&=~(1<<1);
-		_delay_ms(100);
-		PORTA&=~(1<<0);
-		_delay_ms(1000);//all off
+		
 		PORTA|=(1<<0);
 		_delay_ms(500);
 		PORTA&=~(1<<0);
