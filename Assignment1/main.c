@@ -52,7 +52,7 @@ int main()
 
 
 
-
+//here isasd
 		
 		PORTA|=(1<<0);
 		_delay_ms(500);
